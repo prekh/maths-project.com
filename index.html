@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATHS PROJECT</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="History of Prominent Mathematician.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <img class="coverimg" src="History of Prominent Mathematician.png" alt="">
+    <header>
+        <h1 class="heading"> HISTORY OF PROMINIENT MATHEMATICIANS </h1> <br>
+        <h3 class="headin">-PREETISH KHANDELWAL</h3>
+    </header>
+    <main>
+        <div class="row">
+            <div class="column" onclick="openTab('b1');" style="background:green;">
+                1. SHAKUNTALA DEVI
+            </div>
+            <div class="column1" onclick="openTab('b2');">
+                2. SRINIVASA RAMANUJAN
+            </div>
+            <div class="column" onclick="openTab('b3');" style="background:red;">
+                3. ISSAC NEWTON </div>
+            <div class="column" onclick="openTab('b4');" style="background:yellowgreen;">
+                4. PYTHAGORAS </div>
+            <div class="column" onclick="openTab('b5');" style="background:turquoise;">
+                5. ARCHEMIDIES </div>
+        </div>
+
+        <div id="b1" class="containerTab" style="display:none;background:green">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2>1. SHAKUNTALA DEVI</h2>
+            <p>
+            <h1 class="shakuh">SHAKUNTALA DEVI </h1>
+            <img class="shakuimg" src="shakuntala.png" alt="">
+            <p class="shakunp">
+                <b>Date Of Birth</b> : 4 November 1929 <br>
+                <b> Place Of BIrth</b> : Bengaluru <br>
+                <b>Year Of Death</b> : 21 April 2013 <br>
+                <b>Childhood or important incidents of life</b> : She did this without any formal education. At the <br>
+                age of
+                six
+                she demonstrated her arithmetic abilities at the University of Mysore <br>
+
+
+            </p>
+        </div>
+        </p>
+        </div>
+
+        <div id="b2" class="containerTab" style="display:none;background:blue">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2>2. SRINIVASA RAMAUNJAN</h2>
+            <p>
+            <h1 class="ramah">SRINIVASA RAMANUJAN </h1>
+            <img class="ramaimg" src="ramanujan.png" alt="">
+            <p class="ramap">
+                Date Of Birth : 4 November 1929 <br>
+                Place Of BIrth : Bengaluru <br>
+                Year Of Death : 21 April 2013 <br>
+                Childhood or important incidents of life : She did this without any formal education. At the <br> age of
+                six
+                she demonstrated her arithmetic abilities at the University of Mysore <br>
+
+
+            </p>
+        </div>
+        </div>
+
+        <div id="b3" class="containerTab" style="display:none;background:red">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2 class="issacht">3. ISSAC NEWTON</h2>
+            <p>
+            <h1 class="issac">ISSAC NEWTON </h1>
+            <img class="issaimg" src="issacnewton.png" alt="">
+            <p class="issacp">
+                Date Of Birth: January 4, 1643 <br>
+                Place Of Birth: Lincolnshire, England <br>
+                Year Of Death: March 31, 1727 <br>
+
+                Childhood or important incidents of life : One of the most influential and popular scientists of all
+                time, Sir Isaac Newton played a <br> prominent role
+                in our understanding of natural phenomena. He formulated <br> the law of universal gravitation and laws
+                of
+                motion. He also developed the Newtonian telescope <br> among other devices. Apart from science, Newton
+                was
+                also intrigued by religion, occult, and alchemy. <br>
+            </p>
+
+        </div>
+
+        <div id="b4" class="containerTab" style="display:none;background:yellowgreen">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2 class="pythaa">4. PYTHAGORAS</h2>
+            <p>
+            <h1 class="pytha"> PYTHAGORAS </h1>
+            <img class="pythaimg" src="pythagoras.png" alt="">
+            <p class="pythap">
+                Date Of Birth: 0570 BC <br>
+                Place Of Birth: Samos <br>
+                Year Of Death: 0495 BC <br>
+
+                Childhood or important incidents of life : Pythagoras was an Ionian Greek philosopher. He is credited
+                with many scientific and mathematical <br>
+                discoveries, including the Sphericity of the Earth, the Theory of Proportions, the five regular solids,
+                <br>
+                Pythagorean tuning, and the Pythagorean Theorem. Pythagoras influenced other philosophers like Plato and
+                <br>
+                Aristotle. His philosophy also had a major impact on personalities like Isaac Newton, Johannes Kepler,
+                <br>
+                and Nicolaus Copernicus. <br>
+
+            </p>
+
+        </div>
+        <div id="b5" class="containerTab" style="display:none;background:turquoise">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <h2 class="archee">5. ARCHEMIDIES</h2>
+            <p>
+            <h1 class="arche"> PYTHAGORAS </h1>
+            <img class="archeimg" src="archimedes.png" alt="">
+            <p class="archep">
+                Date Of Birth: 0287 BC <br>
+                Place Of Birth: Syracuse, Italy <br>
+                Year Of Died: 0212 BC <br>
+        
+                Greek mathematician, physicist, and astronomer Archimedes is remembered for his contribution to  <br>
+                mathematics, especially geometry. He laid down theorems related to the area of a circle, and the area  <br>
+                and volume of a sphere, and reached an accurate value of pi. He also invented machines such as the screw <br>
+                pump. <br>
+
+            </p>
+
+        </div>
+        <script>
+            function openTab(tabName) {
+                var i, x;
+                x = document.getElementsByClassName("containerTab");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                document.getElementById(tabName).style.display = "block";
+            }
+        </script>
+        <img class="mainimg" src="History of Prominent Mathematician.png" alt="">
+
+
+
+
+
+    </main>
+</body>
+
+</html>
